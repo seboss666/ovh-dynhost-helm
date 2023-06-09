@@ -10,5 +10,5 @@ You need to provide at least two parameters to the chart:
 - the credentials for the dynhost service (see OVH documentation for the details about these ones).
 
 ```bash
-helm upgrade --install <release-name ovh-dynhost --set dynhost.domain=<domain> --set dynhost.credentials=<credentials> -n <namespace> --create-namespace
+helm upgrade --install <release-name> ovh-dynhost --set dynhost.domain=<domain> --set dynhost.credentials=<credentials> -n <namespace> --create-namespace
 ```

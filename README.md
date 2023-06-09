@@ -1,6 +1,6 @@
 # Helm chart for OVH DynHost
 
-This is a little kubernetes cronjob to manage the [OVH DynHost service](OVH DynHost service).
+This is a little kubernetes cronjob to manage the [OVH DynHost service](https://help.ovhcloud.com/csm/fr-dns-dynhost?id=kb_article_view&sysparm_article=KB0051644).
 
 ## Deployment
 

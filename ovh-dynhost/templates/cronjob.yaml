@@ -35,7 +35,7 @@ spec:
             command:
             - /bin/sh
             - -c
-            - curl -s -u $CREDENTIALS "https://www.ovh.com/nic/update?system=dyndns&hostname=$DOMAIN&myip=$(curl -s -4 {{ .Values.dynhost.sourceUrl }})"
+            - curl -u $CREDENTIALS "https://www.ovh.com/nic/update?system=dyndns&hostname=$DOMAIN&myip=$(curl -s -4 {{ .Values.dynhost.sourceUrl }})"
             envFrom:
             - configMapRef:
                 name: {{ include "ovh-dynhost.fullname" . }}-config

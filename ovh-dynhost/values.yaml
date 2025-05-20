@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nixery.dev/arm64/shell/curl
+  repository: nixery.dev/shell/curl
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
